@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import backgroundImg from '../../assets/image.png'
+import {Link} from 'react-router-dom' //o Link do react-router tem uma propriedade chamada 'to'
 
 export const Container = styled.div`
   height: 100vh;

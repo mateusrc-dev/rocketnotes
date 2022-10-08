@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom' //o Link do react-router tem uma propriedade chamada 'to'
 //novamente criando um elemento html no javascript e atribuindo essa tag com configurações css a Container
 export const Container = styled.header`
   grid-area: header; //isso vai fazer com que se o conteúdo da página for muito extenso o cabeçalho continue fixo acima da tela
@@ -12,7 +13,7 @@ export const Container = styled.header`
   padding: 0 80px;
 `;
 //novamente criando um elemento html no javascript e atribuindo essa tag com configurações css a Profile
-export const Profile = styled.div`
+export const Profile = styled(Link)` //estamos colocando como elemento html o Link que foi importando do react-router, o Link é um elemento html link e podemos passar como propriedade para ele o 'to'
   display: flex;
   align-items: center;
   gap: 16px;

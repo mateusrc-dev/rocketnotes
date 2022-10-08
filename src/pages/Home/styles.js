@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom' //o Link do react-router tem uma propriedade chamada 'to'
 
 export const Container = styled.div`
   width: 100%;
@@ -51,9 +52,10 @@ export const Content = styled.div`
   overflow-y: auto; //aqui é pra caso tiver muitas tags, vai aparecer uma barra de rolagem automaticamente
 `;
 
-export const NewNotes = styled.button`
+export const NewNotes = styled(Link)` //estamos colocando como elemento html o Link que foi importando do react-router, o Link é um elemento html link e podemos passar como propriedade para ele o 'to'
   grid-area: newnote;
   background-color: ${({theme}) => theme.COLORS.ORANGE};
+  color: ${({theme}) => theme.COLORS.BACKGROUND_900};
   border: none;
   display: flex;
   align-items: center;

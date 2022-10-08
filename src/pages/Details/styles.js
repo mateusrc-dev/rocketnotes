@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-template-areas: "header" "content";
   main {
     grid-area: content; //vamos usar o main para aplicar a região do nosso grid nela - que no caso é content
-    overflow-y: scroll; 
+    overflow-y: auto; 
     padding: 64px 0;
   }
 ` //armazenando dentro de Container um elemento html e definindo configurações css para esse elemento - vamos colocar display grid para dizer onde cada parte do layout vai se encaixar - grid-template-rows porque vai ter duas linhas, uma para o cabeçalho e uma para o conteúdo, primeira linha (header) vai ter 105px e o conteúdo vai ser auto - grid-template-areas é pra dar nomes as áreas (linhas)

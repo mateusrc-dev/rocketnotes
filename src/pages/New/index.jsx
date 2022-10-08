@@ -1,4 +1,5 @@
 import {Container, Form} from './styles'
+import {Link} from 'react-router-dom' //o Link do react-router tem uma propriedade chamada 'to'
 import {Header} from '../../components/Header'
 import {Input} from '../../components/Input'
 import {Textarea} from '../../components/Textarea'
@@ -14,7 +15,7 @@ export function New() {
         <Form>
           <header>
             <h1>Criar nota</h1>
-            <a href="/">Voltar</a>
+            <Link to="/">Voltar</Link>
           </header> 
           <Input placeholder="Título"/>
           <Textarea placeholder="Observações"/>
