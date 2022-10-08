@@ -25,10 +25,10 @@ export default createGlobalStyle`
 
   button, a {
     cursor: pointer;
-    transition: filter 0.2s;
+    transition: filter 0.5s;
   }
 
   button:hover, a:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.7);
   }
 ` //vamos criar um estilo global - é possível usar o theme porque o elemento createGlobalStyle vai ser importado dentro de main.jsx e colocado dentro da tag ThemeProvider
