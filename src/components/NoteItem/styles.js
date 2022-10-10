@@ -23,6 +23,7 @@ export const Container = styled.div`
     color: ${({theme}) => theme.COLORS.ORANGE};
   }
 
+
   input {
     height: 56px;
     width: 100%;
