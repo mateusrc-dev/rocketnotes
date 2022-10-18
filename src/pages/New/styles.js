@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   .tags {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap; //para quando não caber mais na linha jogar para a linha de baixo
   }
 `;
@@ -29,7 +29,7 @@ export const Form = styled.form`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 36px;
-    a { //não precisa colocar pra selecionar 'header a {}' porque já estamos dentro de header
+    button { //não precisa colocar pra selecionar 'header a {}' porque já estamos dentro de header
       font-size: 20px;
       color: ${({theme}) => theme.COLORS.GRAY_100};
     }

@@ -12,7 +12,11 @@ export const Container = styled.div` //elemento que envolve todo mundo - element
     padding: 0 124px;
     svg { //editando a imagem
       color: ${({theme}) => theme.COLORS.GRAY_100};
-      font-size: 24px;
+      font-size: 30px;
+    }
+    button {
+      background: none;
+      border: none;
     }
   }
 `;
