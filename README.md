@@ -14,3 +14,6 @@ A parte visual do projeto usa a tecnologia ReactJS, uma biblioteca que facilita 
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mateus-carvalho-programador-2b9313249/)
+
+## Deploy da aplicação:
+✔️ https://rocketlikesnotes.netlify.app/
